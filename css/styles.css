@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    width: 80%;
+    margin: auto;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+.title h1 {
+    margin: 20px 0px;
+}
+
+.filter-option {
+    margin: 10px 0px;
+    align-items: center;
+}
+
+.filter-option input {
+    margin-left: 10px;
+}
+
+.card-movie {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid gray;
+    margin: 10px 0px;
+}
+
+.poster-movie img {
+    height: 350px;
+}
+
+.info-movie {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.info-movie .genres td {
+    padding: 1px 10px;
+    border-radius: 10px;
+    margin-bottom: 12px;
+}
+
+.info-movie .genres tr {
+    display: flex;
+
+}
+
+.info-movie .genres tr td {
+    background-color: gray;
+    color: white;
+    font-size: 0.8rem;
+    margin-right: 5px;
+}

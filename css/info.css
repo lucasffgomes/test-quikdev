@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+a {
+    margin-top: 10px;
+}
+
+.card-movie {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid gray;
+    margin: 20px 0px;
+}
+
+.poster-movie img {
+    height: 350px;
+}
+
+.info-movie {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.info-movie .genres td {
+    padding: 1px 10px;
+    border-radius: 10px;
+}
+
+.info-movie .genres tr {
+    display: flex;
+
+}
+
+.info-movie .genres tr td {
+    background-color: gray;
+    color: white;
+    font-size: 0.8rem;
+    margin-right: 5px;
+}
+
+.extra-info h3 {
+    margin: 0;
+}
+
+.extra-info p {
+    margin: 2px 0px;
+}
+
+.extra-info > .card-cast {
+    display: flex;
+    align-items: center;
+}
+
+.extra-info .picture-cast {
+    height: 200px;
+    margin: 0px 10px 10px 0px;
+}
+
+.extra-info p {
+    font-size: 1.5rem;
+}
+
+.extra-info .logo-production {
+    height: 50px;
+}
